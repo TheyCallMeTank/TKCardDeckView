@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		220236321D01292400E2F7D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 220236311D01292400E2F7D6 /* main.m */; };
+		220236351D01292400E2F7D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 220236341D01292400E2F7D6 /* AppDelegate.m */; };
+		220236381D01292400E2F7D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 220236371D01292400E2F7D6 /* ViewController.m */; };
+		2202363B1D01292400E2F7D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 220236391D01292400E2F7D6 /* Main.storyboard */; };
+		2202363D1D01292400E2F7D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2202363C1D01292400E2F7D6 /* Assets.xcassets */; };
+		220236401D01292400E2F7D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2202363E1D01292400E2F7D6 /* LaunchScreen.storyboard */; };
+		2202364E1D01295800E2F7D6 /* TKCardActionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 220236491D01295800E2F7D6 /* TKCardActionView.m */; };
+		2202364F1D01295800E2F7D6 /* TKCardDeckView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2202364B1D01295800E2F7D6 /* TKCardDeckView.m */; };
+		220236501D01295800E2F7D6 /* TKCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2202364D1D01295800E2F7D6 /* TKCardView.m */; };
+		2202365A1D012AF000E2F7D6 /* 先知维纶.png in Resources */ = {isa = PBXBuildFile; fileRef = 220236521D012AF000E2F7D6 /* 先知维纶.png */; };
+		2202365B1D012AF000E2F7D6 /* 加拉克苏斯.png in Resources */ = {isa = PBXBuildFile; fileRef = 220236531D012AF000E2F7D6 /* 加拉克苏斯.png */; };
+		2202365C1D012AF000E2F7D6 /* 塞纳留斯.png in Resources */ = {isa = PBXBuildFile; fileRef = 220236541D012AF000E2F7D6 /* 塞纳留斯.png */; };
+		2202365D1D012AF000E2F7D6 /* 安东尼达斯.png in Resources */ = {isa = PBXBuildFile; fileRef = 220236551D012AF000E2F7D6 /* 安东尼达斯.png */; };
+		2202365E1D012AF000E2F7D6 /* 提里奥佛丁.png in Resources */ = {isa = PBXBuildFile; fileRef = 220236561D012AF000E2F7D6 /* 提里奥佛丁.png */; };
+		2202365F1D012AF000E2F7D6 /* 格罗玛什·地狱咆哮.png in Resources */ = {isa = PBXBuildFile; fileRef = 220236571D012AF000E2F7D6 /* 格罗玛什·地狱咆哮.png */; };
+		220236601D012AF000E2F7D6 /* 爱德温范克里夫.png in Resources */ = {isa = PBXBuildFile; fileRef = 220236581D012AF000E2F7D6 /* 爱德温范克里夫.png */; };
+		220236611D012AF000E2F7D6 /* 霸王龙.png in Resources */ = {isa = PBXBuildFile; fileRef = 220236591D012AF000E2F7D6 /* 霸王龙.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2202362D1D01292400E2F7D6 /* TKCardDeckViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TKCardDeckViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		220236311D01292400E2F7D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		220236331D01292400E2F7D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		220236341D01292400E2F7D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		220236361D01292400E2F7D6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		220236371D01292400E2F7D6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2202363A1D01292400E2F7D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2202363C1D01292400E2F7D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2202363F1D01292400E2F7D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		220236411D01292400E2F7D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		220236481D01295800E2F7D6 /* TKCardActionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKCardActionView.h; sourceTree = "<group>"; };
+		220236491D01295800E2F7D6 /* TKCardActionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKCardActionView.m; sourceTree = "<group>"; };
+		2202364A1D01295800E2F7D6 /* TKCardDeckView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKCardDeckView.h; sourceTree = "<group>"; };
+		2202364B1D01295800E2F7D6 /* TKCardDeckView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKCardDeckView.m; sourceTree = "<group>"; };
+		2202364C1D01295800E2F7D6 /* TKCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKCardView.h; sourceTree = "<group>"; };
+		2202364D1D01295800E2F7D6 /* TKCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKCardView.m; sourceTree = "<group>"; };
+		220236521D012AF000E2F7D6 /* 先知维纶.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "先知维纶.png"; sourceTree = "<group>"; };
+		220236531D012AF000E2F7D6 /* 加拉克苏斯.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "加拉克苏斯.png"; sourceTree = "<group>"; };
+		220236541D012AF000E2F7D6 /* 塞纳留斯.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "塞纳留斯.png"; sourceTree = "<group>"; };
+		220236551D012AF000E2F7D6 /* 安东尼达斯.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "安东尼达斯.png"; sourceTree = "<group>"; };
+		220236561D012AF000E2F7D6 /* 提里奥佛丁.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "提里奥佛丁.png"; sourceTree = "<group>"; };
+		220236571D012AF000E2F7D6 /* 格罗玛什·地狱咆哮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "格罗玛什·地狱咆哮.png"; sourceTree = "<group>"; };
+		220236581D012AF000E2F7D6 /* 爱德温范克里夫.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "爱德温范克里夫.png"; sourceTree = "<group>"; };
+		220236591D012AF000E2F7D6 /* 霸王龙.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "霸王龙.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2202362A1D01292400E2F7D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		220236241D01292400E2F7D6 = {
+			isa = PBXGroup;
+			children = (
+				2202362F1D01292400E2F7D6 /* TKCardDeckViewDemo */,
+				2202362E1D01292400E2F7D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2202362E1D01292400E2F7D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2202362D1D01292400E2F7D6 /* TKCardDeckViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2202362F1D01292400E2F7D6 /* TKCardDeckViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				220236511D012AF000E2F7D6 /* HeartStone */,
+				220236471D01295800E2F7D6 /* TKCardDeckView */,
+				220236331D01292400E2F7D6 /* AppDelegate.h */,
+				220236341D01292400E2F7D6 /* AppDelegate.m */,
+				220236361D01292400E2F7D6 /* ViewController.h */,
+				220236371D01292400E2F7D6 /* ViewController.m */,
+				220236391D01292400E2F7D6 /* Main.storyboard */,
+				2202363C1D01292400E2F7D6 /* Assets.xcassets */,
+				2202363E1D01292400E2F7D6 /* LaunchScreen.storyboard */,
+				220236411D01292400E2F7D6 /* Info.plist */,
+				220236301D01292400E2F7D6 /* Supporting Files */,
+			);
+			path = TKCardDeckViewDemo;
+			sourceTree = "<group>";
+		};
+		220236301D01292400E2F7D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				220236311D01292400E2F7D6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		220236471D01295800E2F7D6 /* TKCardDeckView */ = {
+			isa = PBXGroup;
+			children = (
+				220236481D01295800E2F7D6 /* TKCardActionView.h */,
+				220236491D01295800E2F7D6 /* TKCardActionView.m */,
+				2202364A1D01295800E2F7D6 /* TKCardDeckView.h */,
+				2202364B1D01295800E2F7D6 /* TKCardDeckView.m */,
+				2202364C1D01295800E2F7D6 /* TKCardView.h */,
+				2202364D1D01295800E2F7D6 /* TKCardView.m */,
+			);
+			name = TKCardDeckView;
+			path = ../../TKCardDeckView;
+			sourceTree = "<group>";
+		};
+		220236511D012AF000E2F7D6 /* HeartStone */ = {
+			isa = PBXGroup;
+			children = (
+				220236521D012AF000E2F7D6 /* 先知维纶.png */,
+				220236531D012AF000E2F7D6 /* 加拉克苏斯.png */,
+				220236541D012AF000E2F7D6 /* 塞纳留斯.png */,
+				220236551D012AF000E2F7D6 /* 安东尼达斯.png */,
+				220236561D012AF000E2F7D6 /* 提里奥佛丁.png */,
+				220236571D012AF000E2F7D6 /* 格罗玛什·地狱咆哮.png */,
+				220236581D012AF000E2F7D6 /* 爱德温范克里夫.png */,
+				220236591D012AF000E2F7D6 /* 霸王龙.png */,
+			);
+			path = HeartStone;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2202362C1D01292400E2F7D6 /* TKCardDeckViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 220236441D01292400E2F7D6 /* Build configuration list for PBXNativeTarget "TKCardDeckViewDemo" */;
+			buildPhases = (
+				220236291D01292400E2F7D6 /* Sources */,
+				2202362A1D01292400E2F7D6 /* Frameworks */,
+				2202362B1D01292400E2F7D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TKCardDeckViewDemo;
+			productName = TKCardDeckViewDemo;
+			productReference = 2202362D1D01292400E2F7D6 /* TKCardDeckViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		220236251D01292400E2F7D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Tank;
+				TargetAttributes = {
+					2202362C1D01292400E2F7D6 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 220236281D01292400E2F7D6 /* Build configuration list for PBXProject "TKCardDeckViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 220236241D01292400E2F7D6;
+			productRefGroup = 2202362E1D01292400E2F7D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2202362C1D01292400E2F7D6 /* TKCardDeckViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2202362B1D01292400E2F7D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2202365C1D012AF000E2F7D6 /* 塞纳留斯.png in Resources */,
+				220236611D012AF000E2F7D6 /* 霸王龙.png in Resources */,
+				2202365E1D012AF000E2F7D6 /* 提里奥佛丁.png in Resources */,
+				2202365B1D012AF000E2F7D6 /* 加拉克苏斯.png in Resources */,
+				220236401D01292400E2F7D6 /* LaunchScreen.storyboard in Resources */,
+				2202365F1D012AF000E2F7D6 /* 格罗玛什·地狱咆哮.png in Resources */,
+				2202363D1D01292400E2F7D6 /* Assets.xcassets in Resources */,
+				220236601D012AF000E2F7D6 /* 爱德温范克里夫.png in Resources */,
+				2202365A1D012AF000E2F7D6 /* 先知维纶.png in Resources */,
+				2202365D1D012AF000E2F7D6 /* 安东尼达斯.png in Resources */,
+				2202363B1D01292400E2F7D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		220236291D01292400E2F7D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220236381D01292400E2F7D6 /* ViewController.m in Sources */,
+				220236501D01295800E2F7D6 /* TKCardView.m in Sources */,
+				220236351D01292400E2F7D6 /* AppDelegate.m in Sources */,
+				220236321D01292400E2F7D6 /* main.m in Sources */,
+				2202364F1D01295800E2F7D6 /* TKCardDeckView.m in Sources */,
+				2202364E1D01295800E2F7D6 /* TKCardActionView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		220236391D01292400E2F7D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2202363A1D01292400E2F7D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2202363E1D01292400E2F7D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2202363F1D01292400E2F7D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		220236421D01292400E2F7D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		220236431D01292400E2F7D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		220236451D01292400E2F7D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TKCardDeckViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tank.TKCardDeckViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		220236461D01292400E2F7D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TKCardDeckViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tank.TKCardDeckViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		220236281D01292400E2F7D6 /* Build configuration list for PBXProject "TKCardDeckViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				220236421D01292400E2F7D6 /* Debug */,
+				220236431D01292400E2F7D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		220236441D01292400E2F7D6 /* Build configuration list for PBXNativeTarget "TKCardDeckViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				220236451D01292400E2F7D6 /* Debug */,
+				220236461D01292400E2F7D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 220236251D01292400E2F7D6 /* Project object */;
+}
