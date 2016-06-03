@@ -1,10 +1,10 @@
-# TKCardDeckView
+## TKCardDeckView
 
 TKCardDeckView是一个用于挑选图片的控件，它的使用方式和系统的UITableView非常相似。
 
 ![image](https://github.com/TheyCallMeTank/TKCardDeckView/blob/master/TKCardDeckViewDemo/demo.gif)
 
-# 如何使用
+## 如何使用
 
 只需实现TKCardDeckViewDelegate协议即可，其中numberOfCardsInCardDeckView:和cardDeckView:cardViewForRowAtIndex:必须实现，用于设置显示的内容。
 
@@ -20,7 +20,7 @@ TKCardDeckView是一个用于挑选图片的控件，它的使用方式和系统
 }
 ```
 
-实现数据代理
+#实现数据代理
 ```objc
 //一共有多少张卡片
 - (NSInteger)numberOfCardsInCardDeckView:(TKCardDeckView *)cardDeckView{
@@ -38,7 +38,7 @@ TKCardDeckView是一个用于挑选图片的控件，它的使用方式和系统
 
 ```
 
-将卡片拖向不同的方向显示的选项代理
+#将卡片拖向不同的方向显示的选项代理
 ```objc
 - (TKCardActionView *)cardDeckView:(TKCardDeckView *)cardDeckView cardActionViewForDirection:(TKCardActionDirection)direction{
     
@@ -80,7 +80,7 @@ TKCardDeckView是一个用于挑选图片的控件，它的使用方式和系统
 
 ```
 
-拖向某个方向松开后的事件
+#拖向某个方向松开后的事件
 ```objc
 - (void)cardDeckView:(TKCardDeckView *)cardDeckView actionToDirection:(TKCardActionDirection)direction atCardViewIndex:(NSInteger)index{
     switch (direction) {
