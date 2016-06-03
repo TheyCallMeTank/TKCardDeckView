@@ -37,3 +37,73 @@ TKCardDeckView是一个用于挑选图片的控件，它的使用方式和系统
 }
 
 ```
+
+将卡片拖向不同的方向显示的选项代理
+```objc
+- (TKCardActionView *)cardDeckView:(TKCardDeckView *)cardDeckView cardActionViewForDirection:(TKCardActionDirection)direction{
+    
+    switch (direction) {
+        case TKCardActionDirectionLeft:{
+            TKCardActionView *actionView = [TKCardActionView new];
+            actionView.title = @"Good";
+            actionView.tintColor = [UIColor greenColor];
+            return actionView;
+        }
+            break;
+        case TKCardActionDirectionTop:{
+            TKCardActionView *actionView = [TKCardActionView new];
+            actionView.title = @"Like";
+            actionView.tintColor = [UIColor redColor];
+            return actionView;
+        }
+            break;
+        case TKCardActionDirectionRight:{
+            TKCardActionView *actionView = [TKCardActionView new];
+            actionView.title = @"Normal";
+            actionView.tintColor = [UIColor blueColor];
+            return actionView;
+        }
+            break;
+        case TKCardActionDirectionBottom:{
+            TKCardActionView *actionView = [TKCardActionView new];
+            actionView.title = @"Bad";
+            actionView.tintColor = [UIColor blackColor];
+            return actionView;
+        }
+            break;
+            
+        default:
+            break;
+    }
+    return nil;
+}
+
+```
+
+拖向某个方向松开后的事件
+```objc
+- (void)cardDeckView:(TKCardDeckView *)cardDeckView actionToDirection:(TKCardActionDirection)direction atCardViewIndex:(NSInteger)index{
+    switch (direction) {
+        case TKCardActionDirectionLeft:
+            self.title = [NSString stringWithFormat:@"%@:Good",self.cardDeckData[index]];
+            NSLog(@"Good:%@",self.cardDeckData[index]);
+            break;
+        case TKCardActionDirectionTop:
+            self.title = [NSString stringWithFormat:@"%@:Like",self.cardDeckData[index]];
+            NSLog(@"Like:%@",self.cardDeckData[index]);
+            break;
+        case TKCardActionDirectionRight:
+            self.title = [NSString stringWithFormat:@"%@:Normal",self.cardDeckData[index]];
+            NSLog(@"Normal:%@",self.cardDeckData[index]);
+            break;
+        case TKCardActionDirectionBottom:
+            self.title = [NSString stringWithFormat:@"%@:Bad",self.cardDeckData[index]];
+            NSLog(@"Bad:%@",self.cardDeckData[index]);
+            break;
+            
+        default:
+            break;
+    }
+}
+
+```
